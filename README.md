@@ -2,8 +2,8 @@
 
 - Java 17+
 - Maven 3.8+
-- PostgreSQL instalado localmente
-- IntelliJ IDEA ou NetBeans
+- MySQL instalado localmente
+- IntelliJ IDEA
 
 ---
 
@@ -16,7 +16,7 @@ cd projeto-faculdade
 ```
 
 ### 2. Configure o banco de dados
-- Crie um banco no seu PostgreSQL local
+- Crie um banco no seu MySQL local
 - Copie o arquivo de exemplo e preencha com suas credenciais:
 ```bash
 cp src/main/resources/database.properties.example src/main/resources/database.properties
@@ -26,7 +26,6 @@ cp src/main/resources/database.properties.example src/main/resources/database.pr
 
 ### 3. Importe na IDE
 - **IntelliJ:** `File > Open` → selecione a pasta do projeto (ele detecta o Maven automaticamente)
-- **NetBeans:** `File > Open Project` → selecione a pasta
 
 ### 4. Compile e rode
 ```bash
