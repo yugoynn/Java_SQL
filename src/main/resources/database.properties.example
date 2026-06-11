@@ -1,0 +1,3 @@
+db.url=jdbc:mysql://localhost:3306/sistema_ninja?useSSL=false&serverTimezone=UTC
+db.user=root
+db.password= "senha"

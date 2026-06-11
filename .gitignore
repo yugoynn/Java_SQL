@@ -1,0 +1,10 @@
+target/
+*.class
+
+src/main/resources/database.properties
+
+.idea/
+*.iml
+.vscode/
+
+*.log
